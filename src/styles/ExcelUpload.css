@@ -1,0 +1,33 @@
+.excel-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.excel-upload input[type="file"] {
+    margin-top: 20px;
+}
+
+.excel-upload button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.excel-upload button:hover {
+    background-color: #45a049;
+}
